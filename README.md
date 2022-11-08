@@ -1,1 +1,1 @@
-# meduza
+https://meduza.vercel.app/
