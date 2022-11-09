@@ -362,7 +362,7 @@ footer .footer-links .other-links p {
 }
 
 
-footer .under-block-links .outline {
+footer .footer-under-links .outline {
     display: flex;
     justify-content: center;
     outline: 1px solid white;
@@ -371,7 +371,7 @@ footer .under-block-links .outline {
     margin-top: 50px;
 }
 
-footer .under-block-links .giphy {
+footer .footer-under-links .giphy {
     font-size: 15px;
     margin-left: 235px;
     margin-top: 37px;
@@ -399,11 +399,11 @@ footer .under-block-links .giphy {
         margin-bottom: 44px;
     }
 
-    footer .block-links {
+    footer .footer-links {
         margin-bottom: 30px;
     }
 
-    footer .block-links .other-links .apps {
+    footer .footer-links .other-links .apps {
         display: none;
     }
 
