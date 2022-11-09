@@ -407,7 +407,7 @@ footer .under-block-links .giphy {
         display: none;
     }
 
-    footer .under-block-links {
+    footer .footer-under-links {
         display: none;
     }
 }
@@ -431,23 +431,23 @@ footer .under-block-links .giphy {
         display: none;
     }
 
-    footer .block-links .other-links {
+    footer .footer-links .other-links {
         margin-right: 10px;
         margin-left: 10px;
         font-size: 13px;
     }
 
-    footer .block-links .other-links .advertising {
+    footer .footer-links .other-links .advertising {
         display: none;
     }
 }
 
 @media screen and (max-width: 767px) {
-    footer .block-links .other-links .projects {
+    footer .footer-links .other-links .projects {
         display: none;
     }
 
-    footer .block-links .other-links .editorial {
+    footer .footer-links .other-links .editorial {
         display: none;
     }
 }
@@ -457,17 +457,17 @@ footer .under-block-links .giphy {
         font-size: 26px;
     }
 
-    footer .block-links .other-links .social {
+    footer .footer-links .other-links .social {
         display: none;
     }
 }
 
 @media screen and (max-width: 524px) {
-    main .news .news_1 ul .hidden-border_1 {
+    main .news .news_1 ul .hidden-border-1 {
         display: none;
     }
 
-    main .news .news_2 ul .hidden-border_3 {
+    main .news .news_2 ul .hidden-border-3 {
         display: none;
     }
 
@@ -501,11 +501,11 @@ footer .under-block-links .giphy {
 }
 
 @media screen and (max-width: 524px) {
-    main .border-filter .courses {
+    main .filter .courses {
         display: none;
     }
 
-    main .border-filter .switch {
+    main .filter .switch {
         margin: 0 auto;
         padding-right: 0;
     }
@@ -530,15 +530,15 @@ footer .under-block-links .giphy {
 }
 
 @media screen and (max-width: 425px) {
-    footer .block-links .other-links .user-data {
+    footer .footer-links .other-links .user-data {
         display: none;
     }
 
-    footer .block-links .other-links {
+    footer .footer-links .other-links {
         display: flex;
     }
 
-    footer .block-links .other-links .notifications {
+    footer .footer-links .other-links .notifications {
         margin-left: 30px;
     }
 }
