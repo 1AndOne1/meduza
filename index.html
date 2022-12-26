@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <title>meduza</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Meduza</title>
 </head>
 
 <body>
@@ -19,49 +19,57 @@
         <div class="wrapper">
             <header>
                 <div class="logo">
-                    <img src="./img/meduza.svg" alt="meduza">
+                    <img src="./img/Frame.svg" alt="meduza">
                 </div>
-                <nav class="head-links">
+                <nav class="header-links">
                     <ul>
                         <li>
-                            <a href="https://youtu.be/kMfeKuY3a1s">Новости</a>
+                            <a href="#" class="header-news">Новости</a>
                         </li>
+
                         <li>
-                            <a href="https://youtu.be/OQGdrezi0Y4">Истории</a>
+                            <a href="#">Истории</a>
                         </li>
+
                         <li>
-                            <a href="https://youtu.be/Gad8d3pNHbk">Разбор</a>
+                            <a href="#">Разбор</a>
                         </li>
+
                         <li>
-                            <a href="https://dota2.ru/">Игры</a>
+                            <a href="#">Игры</a>
                         </li>
+
                         <li>
-                            <a href="https://youtu.be/eEqau7Rnbmk">Шапито</a>
+                            <a href="#">Шапито</a>
                         </li>
+
                         <li>
-                            <a href="https://youtu.be/ZudsBqbtws8">Подкасты</a>
+                            <a href="#">Подкасты</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="links-search-lang">
-                    <a href="https://youtu.be/Mntqpxk20lg">EN</a>
-                    <img src="./img/line.svg" alt="" class="line">
-                    <a href="https://youtu.be/Y1M8xgGLt_g">
-                        <img src="./img/glass.svg" alt="glass">
-                    </a>
+                <div class="lang-loop">
+                    <div class="lang">
+                        <a href="#">EN</a>
+                    </div>
+                    <div class="line">
+                        <img src="./img/line.svg">
+                    </div>
+                    <div class="search">
+                        <img src="./img/loop.svg">
+                    </div>
                 </div>
             </header>
             <main>
-                <div class="filter">
+                <div class="value">
                     <div class="courses">
-                        <p class="dollar">$</p>
-                        <p><strong>63,33</strong></p>
-                        <p class="euro">€</p>
-                        <p><strong>72,22</strong></p>
+                        <p class="dollar"><b>$</b></p>
+                        <p><b>63,33</b></p>
+                        <p class="euro"><b>€</b></p>
+                        <p><b>72,22</b></p>
                     </div>
-                    <div class="order">
-                        <p>ПОКАЗЫВАТЬ ПО ПОРЯДКУ</p>
-                        <input type="checkbox">
+                    <div class="orders">
+                        <p>показывать по порядку</p>
                     </div>
                 </div>
                 <div class="news">
@@ -69,32 +77,36 @@
                         <h1>Владимир Путин подал иск к Фонду борьбы с коррупцией</h1>
                         <p>7 часов назад</p>
                     </article>
-                    <article class="news_1">
+                    <article class="additional-news1">
                         <ul>
-                            <li class="visual-border">
+                            <li class="additional_1">
                                 <h1>В Москве вручили премии «Просветитель». Леонид Парфенов получил специальную награду
                                     за вклад в цифровую культуру</h1>
                                 <p>3 часа назад</p>
                             </li>
-                            <li class="hidden-border-1">
-                                <div class="news-1">
+
+                            <li class="additional_2">
+                                <div class="news_1">
                                     <h1>В США российского программиста приговорили к четырем годам тюрьмы по обвинению в
                                         хакерских атаках</h1>
                                     <p>10 часов назад</p>
                                 </div>
-                                <div class="news-2">
+
+                                <div class="news_2">
                                     <h1>Поставкой серверов для распознавания лиц в Москве займется оператор
                                         беспроводного интернета в метро</h1>
                                     <p>6 часов назад</p>
                                 </div>
                             </li>
-                            <li class="hidden-border-2">
-                                <div class="news-3">
+
+                            <li class="additional_3">
+                                <div class="news_3">
                                     <h1>Госдума установила многомиллионные штрафы за повторный отказ передать ФСБ ключи
                                         шифрования</h1>
                                     <p>9 часов назад</p>
                                 </div>
-                                <div class="news-4">
+
+                                <div class="news_4">
                                     <h1>Мем «Ок, бумер» — везде. Обсуждаем, как не начать читать нотации и быть с детьми
                                         на одной волне (если это, конечно, нужно)</h1>
                                     <p>5 часов назад</p>
@@ -102,32 +114,37 @@
                             </li>
                         </ul>
                     </article>
-                    <article class="news_2">
+
+                    <article class="additional-news2">
                         <ul>
-                            <li class="visual-border">
+                            <li class="additional_4">
                                 <h1>В Москве вручили премии «Просветитель». Леонид Парфенов получил специальную награду
                                     за вклад в цифровую культуру</h1>
                                 <p>3 часа назад</p>
                             </li>
-                            <li class="hidden-border-3">
-                                <div class="news-5">
+
+                            <li class="additional_5">
+                                <div class="news_5">
                                     <h1>В США российского программиста приговорили к четырем годам тюрьмы по обвинению в
                                         хакерских атаках</h1>
                                     <p>10 часов назад</p>
                                 </div>
-                                <div class="news-6">
+
+                                <div class="news_6">
                                     <h1>Поставкой серверов для распознавания лиц в Москве займется оператор
                                         беспроводного интернета в метро</h1>
                                     <p>6 часов назад</p>
                                 </div>
                             </li>
-                            <li class="hidden-border-4">
-                                <div class="news-7">
+
+                            <li class="additional_6">
+                                <div class="news_7">
                                     <h1>Госдума установила многомиллионные штрафы за повторный отказ передать ФСБ ключи
                                         шифрования</h1>
                                     <p>9 часов назад</p>
                                 </div>
-                                <div class="news-8">
+
+                                <div class="news_8">
                                     <h1>Мем «Ок, бумер» — везде. Обсуждаем, как не начать читать нотации и быть с детьми
                                         на одной волне (если это, конечно, нужно)</h1>
                                     <p>5 часов назад</p>
@@ -142,34 +159,39 @@
                     <div class="other-links">
                         <div class="rubrics">
                             <ul>
-                                <h1>РУБРИКАТОР</h1>
+                                <h1>РУБРИКА</h1>
                                 <li>
-                                    <a href="https://www.youtube.com/watch?v=nlaHrnpP94U">
+                                    <a href="#">
                                         <p>Новости</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/7vDlDgKJnzg">
+                                    <a href="#">
                                         <p>Истории</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/xpMf11u9l7Q">
+                                    <a href="#">
                                         <p>Разбор</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/h09zvN2tEtM">
+                                    <a href="#">
                                         <p>Игры</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/LsFDeGrNZsA">
+                                    <a href="#">
                                         <p>Шапито</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/4WiV-BfhjEw">
+                                    <a href="#">
                                         <p>Подкасты</p>
                                     </a>
                                 </li>
@@ -179,12 +201,13 @@
                             <ul>
                                 <h1>ПРИЛОЖЕНИЯ</h1>
                                 <li>
-                                    <a href="https://youtu.be/o-QDjUyhNW0">
+                                    <a href="#">
                                         <p>IOs</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/GKR2-ni84Cw">
+                                    <a href="#">
                                         <p>Android</p>
                                     </a>
                                 </li>
@@ -196,52 +219,60 @@
                             <ul>
                                 <h1>СОЦИАЛЬНЫЕ СЕТИ </h1>
                                 <li>
-                                    <a href="https://youtu.be/BMTwGqiZMZE">
+                                    <a href="#">
                                         <p>Facebook</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://youtu.be/1ogfgJHerCM">
+                                    <a href="#">
                                         <p>Twitter</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/xGG_T4Lwxn4">
+                                    <a href="#">
                                         <p>Twitter Шапито</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/XuBydGbCMLg">
+                                    <a href="#">
                                         <p>ВКонтакте</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/WxiB6tA7RP4">
+                                    <a href="#">
                                         <p>ВКонтакте-Новости</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/O70MSRovido">
+                                    <a href="#">
                                         <p>ВКонтакте-Шапито</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/rapITH1JkyU">
+                                    <a href="#">
                                         <p>Youtube</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/Vi7ULYt2ha0">
+                                    <a href="#">
                                         <p>Instagram</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/0PiqqbyQRoo">
+                                    <a href="#">
                                         <p>Одноклассники</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/QeSAdifXDGk">
+                                    <a href="#">
                                         <p>Medium</p>
                                     </a>
                                 </li>
@@ -253,32 +284,37 @@
                             <ul>
                                 <h1>TELEGRAM</h1>
                                 <li>
-                                    <a href="https://youtu.be/3py94zvygFg">
+                                    <a href="#">
                                         <p>Meduza Live</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/GEY5yk4AKvA">
+                                    <a href="#">
                                         <p>Вечерняя Meduza</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/QreCNpGdkSA">
+                                    <a href="#">
                                         <p>Срочные новости</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/so_7WcDkjxs">
+                                    <a href="#">
                                         <p>Все новости</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/RooekRKfvvk">
+                                    <a href="#">
                                         <p>Шапито</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/yfgzC02YsE8">
+                                    <a href="#">
                                         <p>Бот</p>
                                     </a>
                                 </li>
@@ -288,7 +324,7 @@
                             <ul>
                                 <h1>УВЕДОМЛЕНИЯ</h1>
                                 <li>
-                                    <a href="https://youtu.be/VC2OPVDEDJo">
+                                    <a href="#">
                                         <p>RSS</p>
                                     </a>
                                 </li>
@@ -300,32 +336,35 @@
                             <ul>
                                 <h1>НАШИ ПРОЕКТЫ</h1>
                                 <li>
-                                    <a href="https://youtu.be/qTkEt3YmmmU">
-                                        <p>конференция “шторм”</p>
+                                    <a href="#">
+                                        <p>Конференция “Шторм”</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/UE7O0qag0NE">
-                                        <p>школа “ферма”</p>
+                                    <a href="/">
+                                        <p>Школа “Ферма”</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/IMblOqqNvSU">
+                                    <a href="#">
                                         <p>meduzaCare</p>
                                     </a>
                                 </li>
+
                             </ul>
                         </div>
-                        <div class="editorial">
+                        <div class="redaction">
                             <ul>
                                 <h1>РЕДАКЦИЯ</h1>
                                 <li>
-                                    <a href="https://youtu.be/0QsQUzFBozw">
+                                    <a href="#">
                                         <p>Контакты редакции</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://youtu.be/mvqUu2fZixI">
+                                    <a href="#">
                                         <p>SecureDrop</p>
                                     </a>
                                 </li>
@@ -337,25 +376,29 @@
                             <ul>
                                 <h1>РЕКЛАМА</h1>
                                 <li>
-                                    <a href="https://youtu.be/vWujTfKiXNg">
+                                    <a href="#">
                                         <p>Реклама на “Медузе”</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/ML2kqX39MP4">
+                                    <a href="#">
                                         <p>Прайс-лист</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/itcGjCcs5eg">
+                                    <a href="#">
                                         <p>Примеры нативной рекламы</p>
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://youtu.be/hW5Wv0zWfUA">
+                                    <a href="#">
                                         <p>Требованя к баннерам</p>
                                     </a>
                                 </li>
+
                                 <li>
                                     <a href="#">
                                         <p>Написать в рекламный отдел</p>
@@ -371,6 +414,7 @@
                                         <p>Правила обработки</p>
                                     </a>
                                 </li>
+
                                 <li>
                                     <a href="#">
                                         <p>Использование куки</p>
@@ -378,12 +422,6 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="footer-under-links">
-                    <div class="outline"></div>
-                    <div class="giphy">
-                        <p>Спасибо giphy за гифки! Нашли ошибку? Выделите ее и нажмите Ctrl+Enter © 2019 Meduza</p>
                     </div>
                 </div>
             </footer>
